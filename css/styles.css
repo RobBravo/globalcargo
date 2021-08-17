@@ -45,7 +45,7 @@ body, p {
 }
 
 h1 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.125rem;
@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 2.625rem;
@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.375rem;
@@ -69,7 +69,7 @@ h3 {
 }
 
 h4 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2.125rem;
@@ -77,14 +77,14 @@ h4 {
 }
 
 h5 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
 
 h6 {
-	color: #1e266d;
+	color: #083687;
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -528,13 +528,13 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #002252;
+	color: #083687;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-light .navbar-nav .nav-link.active{
-	color: #002252;
+	color: #083687;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -663,12 +663,13 @@ input[type='checkbox'] {
 /*     Introduction     */
 /************************/
 .basic-1 {
-	padding-top: 5.25rem;
+	padding-top: 0.25rem;
 	padding-bottom: 5rem;
 }
 
 .basic-1 img {
-	margin-bottom: 3.5rem;
+	
+	margin: 0.5rem auto 1.5rem auto ;
 }
 
 .basic-1 h2 {
@@ -1022,16 +1023,18 @@ input[type='checkbox'] {
 /**********************/
 .form-1 {
 	padding-top: 9.5rem;
-	padding-bottom: 8.5rem;
-	text-align: center;
+	padding-bottom: 2.5rem;
+	text-align: left;
 }
 
 .form-1 .h2-heading {
 	margin-bottom: 0.75rem;
+	text-align: center;
 }
 
 .form-1 .p-heading {
 	margin-bottom: 3rem;
+	text-align: center;
 }
 
 .form-1 .label-control {
@@ -1241,6 +1244,9 @@ a:hover.back-to-top {
 	/* Extra Pages */
 	.ex-basic-1 .text-box {
 		padding: 1.75rem 2rem 0.875rem 2rem;
+	}
+	.rombo{
+		margin: 0px 115px 0px 115px !important;
 	}
 	/* end of extra pages */
 }
@@ -1495,6 +1501,14 @@ a:hover.back-to-top {
 		margin-right: 1rem;
 		margin-left: 1rem;
 	}
+	.rombo{
+		margin: 0px 1px 0px 1px !important;
+		width: 288px !important;
+	}
+	.rombo::after{
+		border-left: 144px solid transparent !important;
+		border-right: 144px solid transparent !important;
+	}
 	/* end of extra pages */
 }
 /* end of min-width 992px */
@@ -1620,6 +1634,14 @@ a:hover.back-to-top {
 		margin-right: 2.875rem;
 		margin-left: 2.875rem;
 	}
+	.rombo{
+		margin: 0px auto 0px auto !important;
+		width: 340px !important;
+	}
+	.rombo::after {
+		border-left: 170px solid transparent !important;
+		border-right: 170px solid transparent !important;
+	}
 	/* end of extra pages */
 }
 .texto-principal{
@@ -1644,4 +1666,46 @@ a:hover.back-to-top {
 	background-color: #f75414;
 	padding: 15px 10px 10px 10px;
 }
+
+
+.rombo {
+	background: #3c4a5e;
+	display: inline-block;
+	height: 160px;
+	margin: 0px 30px 0px 30px;
+	position: relative;
+	width: 420px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+  }
+  .rombo::after {
+	content: "";
+	position: absolute;
+	bottom: -78.8675px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 210px solid transparent;
+	border-right: 210px solid transparent;
+	border-top:78.8675px solid #3c4a5e;
+  }
+  #features{
+	  background-image: url(../images/service.jpg);
+	  background-position: top;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+  }
+  .bloque{
+	  background-color: transparent;
+	  border-radius: 15px;
+	  width: 95%;
+	  margin: 5px auto 20px auto;
+  }
+  .text-rombo{
+	  margin-top: 90px;
+	  text-align: justify;
+	  padding: 5px;
+	  font-weight: bold;
+  }
 /* end of min-width 1200px */
