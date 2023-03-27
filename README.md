@@ -1,2 +1,2 @@
 # globalcargo
-Sitio web de la empresa global cargo
+Sitio web de carga y transporte
